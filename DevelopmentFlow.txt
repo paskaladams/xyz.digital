@@ -1,0 +1,87 @@
+Development Flow
+
+1. (DONE) Install Vite
+    - npm create vite@latest
+    - Pilih React -> JavaScript 
+    - Buat nama folder baru -> code-challenge-2
+2. (DONE) Install node_modules 
+    - Pindah ke folder baru 
+    - npm install
+    - npm run dev -> untuk cek setelah berhasil install vite dan npm
+3. (DONE) Buat folder untuk component dan isinya file jsx (Navbar, Footer)
+4. (DONE) Buat folder untuk page dan isinya jsx (Homepage, About Us, Services, Teams, Testimonial) 
+5. Buat folder assets 
+    - Siapkan image yang akan digunakan
+6. Ganti judul dan icon web taskbar di bagian index.html
+7. (DONE) Hapus code & file default bawaan vite karena tidak diperlukan 
+    - Hapus code di dalam bagian return file app.jsx
+    - Hapus file app.css 
+    - hapus file index.css
+8. (DONE) Install React Router DOM 
+    - npm install react-router-dom
+    - import BrowserRouter di main.jsx
+    - import Routes, Route di app.jsx
+    - buat link menggunakan router untuk tiap pages
+9. (DONE) Install Font dari google fonts 
+    - Copy link dari selected family (Font Poppins)
+10. (DONE) Install Bootstrap
+    - npm install react-bootstrap bootstrap
+    - copy code import css di file main.jsx
+11. (DONE) Buat file main.css di folder src/dist/css
+12. Buat folder data
+    - Siapkan file index.js yang berisi isi konten teks dalam web
+    - Panggil menggunakan method map
+13. Buat Component Navbar
+    - Buat function agar navbar berubah warna jika discroll lebih dari value 10
+    - Buat logo navbar di NavbarBrand (Bisa pakai text atau image)
+    - Navbar.Toggle untuk xxx
+    - NavbarCollapse untuk xxx
+    - Panggil data navbar dari index.js dengan method map
+    - Styling navbar di main.css
+14. Buat Home Page
+    - Buat Hero section (ada judul, text, button ke services page dan image sebagai background)
+    - Buat About us section
+    - Buat Services section
+    - Buat Teams section
+    - Styling home page di main.css
+15. Buat Testimonial section
+    - Install Swiper untuk slider -> npm install swiper
+    - Di bagian demos web swiper pilih bagian Responsive Breakpoints
+    - Copy code .jsx dan .css nya
+16. Buat Component Footer
+    - Copy CDN FontAwesome ke index.html
+    - Buat icon sesuai kebutuhan
+17. Buat page About Us terpisah
+18. Buat page Services terpisah
+19. Buat page Teams terpisah
+20. Buat page Testimonial terpisah
+21. Membuat function scroll to top (komponen baru)
+    - Buat file baru di file components
+    - Buat code scroll to top di file tsb
+
+(BELUM)
+22. Membuat animasi ketika scroll to top dengan install Animate.style
+    - Install Animate.style
+    - Overflow hidden agar tidak terlihat dari luar area konten utama
+23. Membuat animasi dengan AOS
+    - npm install --save aos@next
+
+Tools yang digunakan
+- Vite -> React JavaScript
+- Bootstrap
+- React Router
+- Google Font
+- Font Awesome
+- Swiper
+
+(BELUM)
+- Animate.style
+- AOS (Animation On Scroll)
+
+Step by step deploy di Vercel
+1. Upload ke GitHub
+    - git init (Di terminal)
+    - Buat repository baru di GitHub (Buat nama repository, set public, lalu klik button create repository)
+    - copy echo "# xyz.digital" >> README.md ke terminal
+    - git add *
+    
