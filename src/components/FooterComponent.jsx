@@ -42,12 +42,12 @@ const FooterComponent = () => {
 							<input type="text" placeholder="Put your email here" />
 							<button className="btn btn-success rounded-end rounded-0 ">Subscribe</button>
 						</div>
-						<div className="social mt-3">
+						{/* <div className="social mt-3">
 							<i className="fa-brands fa-facebook"></i>
 							<i className="fa-brands fa-twitter"></i>
 							<i className="fa-brands fa-linkedin"></i>
 							<i className="fa-brands fa-youtube"></i>
-						</div>
+						</div> */}
 					</Col>
 				</Row>
 				<Row>

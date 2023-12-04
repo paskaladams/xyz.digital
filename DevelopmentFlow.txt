@@ -84,4 +84,13 @@ Step by step deploy di Vercel
     - Buat repository baru di GitHub (Buat nama repository, set public, lalu klik button create repository)
     - copy echo "# xyz.digital" >> README.md ke terminal
     - git add *
-    
+    - git commit -m "first commit"
+    - git remote add origin https://github.com/paskaladams/xyz.digital.git
+    - git remote -v
+    - git push -u origin main (jika error ketik git branch -m master main lalu ketik ulang git push -u origin main)
+    - Refresh page github dan cek repository
+    - Klik tag, lalu crete a new release
+    - Ke page Vercel (connect account GitHub ke Vercel)
+    - Di bagian overview add new
+    - Import repository xyz.digital
+    - Lalu di bagian install command ketik npm install
