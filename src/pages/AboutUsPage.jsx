@@ -64,6 +64,14 @@ const AboutUsPage = () => {
 							<br />
 							Client-Centric Approach: Your satisfaction is our priority. We tailor our services to meet your unique needs and exceed your expectations.
 						</p>
+						<h1 className="milestones">Milestones</h1>
+						<p className="milestones">
+							Since 2000, XYZ.Digital has achieved significant milestones, marking our journey towards digital excellence. In 2003, we successfully launched our first
+							proprietary website development framework, revolutionizing our approach to crafting user-centric online experiences. 2006 saw the expansion of our client
+							portfolio, with notable collaborations that showcased our prowess in digital marketing strategies. In 2015, we proudly celebrated reaching a milestone of
+							1000 successful website launches, a testament to our commitment to quality and client satisfaction. Looking ahead, XYZ.Digital is poised for even greater
+							milestones, anticipating continued growth, innovation, and impactful contributions to the digital landscape.
+						</p>
 					</Col>
 				</Row>
 			</Container>
